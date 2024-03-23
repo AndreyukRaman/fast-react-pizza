@@ -1,8 +1,10 @@
+import CreateUser from "../features/user/CreateUser"
+
 function Home() {
   return (
-    <div>
+    <div className='my-10  text-center'>
       <h1
-        className="text-xl font-semibold text-center
+        className="text-xl font-semibold text-center mb-8
     "
       >
         The best pizza.
@@ -12,6 +14,7 @@ function Home() {
         Straight out of the oven, straight to you.
         </span>
       </h1>
+      <CreateUser />
     </div>
   );
 }
