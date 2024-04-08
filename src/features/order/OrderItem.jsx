@@ -3,7 +3,7 @@ import { formatCurrency } from '../../utils/helpers';
 function OrderItem({ item, isLoadingIngredients, ingredients }) {
   const { quantity, name, totalPrice } = item;
 
-console.log(isLoadingIngredients)
+
 
   return (
     <li className="space-y-1 py-3">
